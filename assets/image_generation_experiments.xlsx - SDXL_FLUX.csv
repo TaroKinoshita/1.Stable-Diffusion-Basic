@@ -1,0 +1,30 @@
+Model,Prompt,Negative,Resolution,Steps,CFG,Sampler,Scheduler,VRAM(GB),Time(s),Quality Score (1-5),Notes
+Standard setting,"a cinematic portrait of a woman, soft rim light, ultra-detailed skin texture, shallow depth of field, 8k, photorealistic, dramatic lighting, highly detailed eyes","low quality, bad anatomy, blurry, extra limbs, text, watermark,  
+worst quality, nsfw, poorly drawn hands, distorted face, lowres,  
+overexposure, grainy, deformed eyes",1024x1024,20,7,dpmpp_2m,Normal,8,15,3,"Seed is static number ""42""."
+SDXL Base 1.0,-,-,1024x1024,4,7,dpmpp_2m,Normal,8,6,1,
+SDXL Base 1.0,-,-,1024x1024,8,7,dpmpp_2m,Normal,8,8,2,
+SDXL Base 1.0,-,-,1024x1024,40,7,dpmpp_2m,Normal,8,33,4,
+SDXL Base 1.0,-,-,1024x1024,20,3.5,dpmpp_2m,Normal,8,15,2,
+SDXL Base 1.0,-,-,1024x1024,20,10,dpmpp_2m,Normal,8,14,3,
+SDXL Base 1.0,-,-,1024x1024,20,15,dpmpp_2m,Normal,8,14,2,
+SDXL Base 1.0,-,-,1024x1024,20,7,Euler,Normal,8,14,4,
+SDXL Base 1.0,-,-,1024x1024,20,7,uni_pc,Normal,8,15,4,
+SDXL Base 1.0,-,-,1024x1024,20,7,dpmpp_2m,karras,8,15,4,
+SDXL Base 1.0,-,-,1024x1024,20,7,dpmpp_2m,exponential,8,15,4,
+SDXL Base 1.0,,,1024x1024,20,7,dpmpp_2m,simple,8,14,4,
+,,,,,,,,,,,
+,1st prompt,2nd prompt,,,,,,,,,
+Standard setting,"A cinematic portrait of a woman, shallow depth of field, soft rim light, highly detailed eyes
+","Ultra-detailed skin texture, photorealistic, 8k, dramatic lighting, high quality, sharp focus
+",1024x1024,20,1,Euler,simple,8,104,4,"Seed is static number ""42""."
+Flux Schnell,-,-,1024x1024,4,1,Euler,simple,8,23,3,
+,-,-,1024x1024,8,1,Euler,simple,8,46,4,
+,-,-,1024x1024,40,1,Euler,simple,8,208,4,
+,-,-,1024x1024,20,2,Euler,simple,8,220,2,
+,-,-,1024x1024,20,3.5,Euler,simple,8,208,1,
+,-,-,1024x1024,20,1,dpmpp_2m,simple,8,105,3,
+,-,-,1024x1024,20,1,uni_pc,simple,8,103,3,
+,-,-,1024x1024,20,1,Euler,karras,8,103,4,
+,-,-,1024x1024,20,1,Euler,exponential,8,113,4,
+,,,1024x1024,20,1,Euler,Normal,8,106,4,
